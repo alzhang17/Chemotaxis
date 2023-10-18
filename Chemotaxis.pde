@@ -30,7 +30,7 @@ Bacteria bacteria[] = new Bacteria [8];
    void show(){
      fill(bacteriaColor);
      noStroke();
-     rect(myX, myY, 25, 25);
+     ellipse(myX, myY, 30, 20);
    }
    void move(){
      if(mouseX < myX)
